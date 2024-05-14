@@ -1,4 +1,4 @@
-Recipe Mastermind is a revolutionary recipe application designed to simplify your culinary journey. Whether you're a seasoned chef or a novice in the kitchen, Recipe Mastermind empowers you to discover, create, and share delicious recipes with ease.
+Imperial recipe is a revolutionary recipe application designed to simplify your culinary journey. Whether you're a seasoned chef or a novice in the kitchen, Recipe Mastermind empowers you to discover, create, and share delicious recipes with ease.
 
 Features
 1. Intuitive Recipe Creation
