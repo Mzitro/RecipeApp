@@ -1,0 +1,83 @@
+﻿<Page x:Class="FinalPOE.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FinalPOE"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="View_More">
+
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!-- Column 0 -->
+        <Grid Grid.Column="0" Margin="0,0,15,15">
+            <Rectangle Fill="Black"/>
+            <Image Source="C:\Users\RC_Student_lab\source\repos\FinalPOE\FinalPOE\Images\food-826744_1280.jpg"
+               VerticalAlignment="Center" HorizontalAlignment="Stretch"
+               Stretch="UniformToFill"/>
+            <TextBlock Text="View Recipes" FontSize="30" Foreground="White" Margin="10,65,10,0"
+                   VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="Bold"/>
+            <Button Content="Open" Margin="0,-150,0,0" Width="120" Height="40"
+                BorderBrush="White" BorderThickness="3" FontSize="12" Background="#FFFBC4B7"
+                Foreground="White" FontWeight="Bold" HorizontalAlignment="Center"
+                Tag="View_Recipes.xaml" Click="Button_Click"/>
+        </Grid>
+
+        <!-- Row 1 Column 0 -->
+        <Grid Grid.Row="1" Grid.Column="0" Margin="0,5,15,0">
+            <Rectangle Fill="Black"/>
+            <Image Source="C:\Users\RC_Student_lab\source\repos\FinalPOE\FinalPOE\Images\cake-3060458_1280.jpg"
+        VerticalAlignment="Center"
+        Stretch="UniformToFill" Margin="0,0,-551,0"/>
+            <TextBlock Text="Edit Recipes" FontSize="30" Foreground="White" Margin="10,65,10,0"
+            VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="Bold"/>
+            <Button Content="Edit" Margin="0,-150,0,0" Width="120" Height="40"
+         BorderBrush="White" BorderThickness="3" FontSize="12" Background="#FFBD5252"
+         Foreground="White" FontWeight="Bold" HorizontalAlignment="Center"
+         Tag="Page4.xaml" Click="Button_Click"/>
+        </Grid>
+
+        <!-- Column 1 -->
+        <Grid Grid.Column="1" Margin="0,0,15,15">
+            <Rectangle Fill="Black"/>
+            <Image Source="C:\Users\RC_Student_lab\source\repos\FinalPOE\FinalPOE\Images\tacos-al-pastor-4351813_1280.jpg"
+               VerticalAlignment="Center" HorizontalAlignment="Stretch"
+               Stretch="UniformToFill"/>
+            <TextBlock Text="Add Recipes" FontSize="30" Foreground="White" Margin="10,65,10,0"
+                   VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="Bold"/>
+            <Button Content="Add" Margin="0,-150,0,0" Width="120" Height="40"
+                BorderBrush="White" BorderThickness="3" FontSize="12" Background="Transparent"
+                Foreground="White" FontWeight="Bold" HorizontalAlignment="Center"
+                Tag="Page2.xaml" Click="Button_Click"/>
+        </Grid>
+
+        <!-- Row 1 Column 1 -->
+
+        <!-- Column 2 -->
+        <Grid Grid.Column="2" Margin="0,0,0,15">
+            <Rectangle Fill="Black"/>
+            <Image Source="C:\Users\RC_Student_lab\source\repos\FinalPOE\FinalPOE\Images\pancakes-5989136_1280.jpg"
+               VerticalAlignment="Center" HorizontalAlignment="Stretch"
+               Stretch="UniformToFill"/>
+            <TextBlock Text="Remove Recipes" FontSize="30" Foreground="White" Margin="10,65,10,0"
+                   VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="Bold"/>
+            <Button Content="Remove" Margin="0,-150,0,0" Width="120" Height="40"
+                BorderBrush="White" BorderThickness="3" FontSize="12" Background="#FFEABABA"
+                Foreground="White" FontWeight="Bold" HorizontalAlignment="Center"
+                Tag="Page3.xaml" Click="Button_Click"/>
+        </Grid>
+
+        
+    </Grid>
+</Page>
